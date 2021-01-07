@@ -2,13 +2,12 @@ body{
     margin:0;
     padding:0;
     font-family: Gill Sans Extrabold, sans-serif;
-   
+    background-color: #7EB186;
 }
 h1{
     font-size: 40px;
     font-weight: bold;
 }
-
 .greet{
     font-size: 40px;
     font-weight: bold;
@@ -20,9 +19,7 @@ h1{
 }
 .para-font{
     font-size: 30px;
-    
 }
-
 .button{
     text-decoration: none;
     background-color: orange;
@@ -33,18 +30,13 @@ h1{
     font-size: larger;   
 }
 .container{
-    
-    height: 700px;
+  height: 700px;
 }
-
-
 .half-width{
     width: 40%;
     float: left;
     margin-left:5% ;
     padding-left: 2%;
-   
-    
 }
 .half-width img{
     width: 100%;
@@ -54,7 +46,6 @@ h1{
     float: left;
     margin-left:5% ;
     padding-left: 2%;
-
 }
 .mid-half img{
     width: 100%;
@@ -67,7 +58,6 @@ h1{
     color: white;
     border-radius: 5px;
     background-image: linear-gradient(180deg,rgba(255, 166, 0, 0.938), rgba(0, 255, 64, 0.883));
-
 }
 .latest{
     color:orange;
@@ -89,4 +79,31 @@ h1{
 }
 #project{
     text-align: center;
+}
+.footer{
+    text-align: right;
+    background-color: yellowgreen;
+    padding: 90px 10px 90px 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+}
+.chat{
+    width:40%;
+    float: left;
+}
+.chat-button{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger; 
+    padding: 15px 30px 15px 30px;
+    background-color: orange; 
+    border-radius: 10px;
+    margin-right:px;
+}
+#last-para{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
 }
